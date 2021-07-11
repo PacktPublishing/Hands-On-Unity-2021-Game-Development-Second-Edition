@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: HealthBar
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-27.50031,"y":-36.50131},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-18.0,"y":-123.0},"guid":"188ed83e-ff2c-49fe-b4e2-db25f2481780","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"member":{"name":"fillAmount","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":132.0,"y":-92.0},"guid":"23a88887-ff2b-4c07-aedb-12ce8320a28f","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"defaultValues":{"dividend":{"$content":1.0,"$type":"System.Single"},"divisor":{"$content":100.0,"$type":"System.Single"}},"position":{"x":-35.0,"y":-7.0},"guid":"6e2784c3-4c2a-4487-ae91-35144f221874","$version":"A","$type":"Unity.VisualScripting.ScalarDivide","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"targetLife","$type":"System.String"},"object":null},"position":{"x":-207.0,"y":-134.0},"guid":"f9dbad14-07c2-42a8-bb89-8532f4fef45c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"life","$type":"System.String"},"object":null},"position":{"x":-204.0,"y":-2.0},"guid":"e592c234-b80d-4886-9d4a-8a4507932734","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"6a0f973c-02b8-4484-9542-c7a5c2f827f4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"object","guid":"8621a10a-d488-441a-bdb3-4ce19d074ac5","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"quotient","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"bca302ae-2b2e-4c66-a6a6-42d57cb340f5","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"dividend","guid":"a09f1a9d-fa6a-494f-adda-eb34442ff3b2","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

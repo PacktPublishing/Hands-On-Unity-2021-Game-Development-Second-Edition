@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="left: 0; top: 0; right: 0; bottom: 0; position: absolute; justify-content: center; align-items: center;">
+        <ui:VisualElement name="Background" style="width: 840px; height: 500px; background-image: url(&apos;/Assets/Chapter 11/GUI_Parts/Gui_parts/barmid_ready.png#barmid_ready&apos;); justify-content: space-around; align-items: center; padding-top: 40px; padding-bottom: 40px; flex-wrap: nowrap; overflow: visible; flex-direction: column;">
+            <ui:Label text="Pause" display-tooltip-when-elided="true" style="font-size: 60px; -unity-font: resource(&apos;Fonts &amp; Materials/militech_r_2019-04-13&apos;);" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="font-size: 50px; background-image: url(&apos;/Assets/Chapter 11/GUI_Parts/Gui_parts/button_ready_on.png#button_ready_on&apos;); -unity-font: resource(&apos;Fonts &amp; Materials/militech_r_2019-04-13&apos;); color: rgb(130, 130, 130); padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 30px;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="font-size: 50px; background-image: url(&apos;/Assets/Chapter 11/GUI_Parts/Gui_parts/button_ready_on.png#button_ready_on&apos;); -unity-font: resource(&apos;Fonts &amp; Materials/militech_r_2019-04-13&apos;); color: rgb(130, 130, 130); padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

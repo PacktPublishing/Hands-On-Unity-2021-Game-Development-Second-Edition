@@ -1,0 +1,9 @@
+.HUDText {
+    -unity-font: resource('Fonts & Materials/militech_r_2019-04-13');
+    font-size: 95px;
+    -unity-text-align: middle-right;
+    position: absolute;
+}
+
+.NewClass {
+}

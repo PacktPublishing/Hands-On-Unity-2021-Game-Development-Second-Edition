@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="GameUSS.uss" />
+    <ui:VisualElement name="PlayerLogo" style="position: absolute; height: 150px; width: 150px; top: 27px; left: 21px; background-image: url(&apos;/Assets/Chapter 11/Sprites/avatar.png#avatar&apos;);" />
+    <ui:VisualElement name="LifeBar" style="position: absolute; left: 50px; right: 50px; bottom: 50px; height: 35px; align-items: center; justify-content: flex-end;">
+        <ui:VisualElement name="LifeBarFilling" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgb(0, 255, 6); -unity-background-scale-mode: stretch-to-fill; width: 50%; height: auto; margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        <ui:VisualElement name="LifeBarBorder" style="position: absolute; height: auto; width: auto; top: -10px; left: -10px; background-image: url(&apos;/Assets/Chapter 11/GUI_Parts/Gui_parts/Hp_frame.png#Hp_frame&apos;); -unity-slice-bottom: 15; -unity-slice-left: 15; -unity-slice-top: 15; -unity-slice-right: 15; right: -10px; bottom: -10px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="PlayerHealth" style="position: absolute; top: 76px; left: 198px; -unity-background-scale-mode: stretch-to-fill; width: 650px; height: 43px; margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="Filling" style="background-color: rgb(255, 0, 0); position: relative; height: 100%; width: 50%;" />
+        <ui:VisualElement name="Border" style="background-image: url(&apos;/Assets/Chapter 11/GUI_Parts/Gui_parts/Hp_frame.png#Hp_frame&apos;); width: auto; height: auto; -unity-slice-left: 15; -unity-slice-top: 15; -unity-slice-right: 15; -unity-slice-bottom: 15; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute; left: -15px; top: -15px; right: -15px; bottom: -15px;" />
+    </ui:VisualElement>
+    <ui:Label text="Score: 0" display-tooltip-when-elided="true" name="Label" class="HUDText" style="top: 30px; left: auto; right: 30px; bottom: auto;" />
+    <ui:Label text="Bullets: 0" display-tooltip-when-elided="true" name="Label" class="HUDText" style="top: 109px; right: 30px; width: 258px;" />
+    <ui:VisualElement name="PlayerLogo" style="position: absolute; height: auto; width: auto; top: 25px; left: 25px; background-image: url(&apos;/Assets/Chapter 11/Sprites/avatar.png#avatar&apos;); right: auto; bottom: auto;" />
+</ui:UXML>
