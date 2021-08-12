@@ -53,7 +53,7 @@ With the following software and hardware list you can run all code files present
 | 1-23        |  Xcode 12         | Mac OS X |
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781801071482_ColorImages.pdf).
 
 ### Related products <Other books you may enjoy>
 * Game Development Patterns with Unity 2021 - Second Edition [[Packt]](https://www.packtpub.com/product/game-development-patterns-with-unity-2021-second-edition/9781800200814) [[Amazon]](https://www.amazon.com/dp/1800200811)
