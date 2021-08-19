@@ -1,8 +1,8 @@
-# Hands-On Unity 2021 Game Development
+# Hands-On Unity 2021 Game Development - Second Edition
 
 <a href="https://www.packtpub.com/product/hands-on-unity-2021-game-development-second-edition/9781801071482"><img src="https://static.packt-cdn.com/products/9781801071482/cover/smaller" alt="Hands-On Unity 2021 Game Development" height="256px" align="right"></a>
 
-This is the code repository for [Hands-On Unity 2021 Game Development](https://www.packtpub.com/product/hands-on-unity-2021-game-development-second-edition/9781801071482), published by Packt.
+This is the code repository for [Hands-On Unity 2021 Game Development - Second Edition](https://www.packtpub.com/product/hands-on-unity-2021-game-development-second-edition/9781801071482), published by Packt.
 
 **Create, customize, and optimize your own professional games from scratch with Unity 2021**
 
